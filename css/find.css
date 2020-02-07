@@ -1,11 +1,11 @@
-.find{
-    margin-top: 50px;
+.find {
+  margin-top: 10px;
 }
 
 .find .find__header-list {
   display: flex;
   justify-content: space-around;
-  padding: 0px 20px;s
+  padding: 0px 20px;
 }
 
 .find .header-btn {
@@ -20,8 +20,8 @@
 }
 
 .find .header-btn__icon {
-    margin-top: 20px;
-    font-size: 12px;
+  margin-top: 20px;
+  font-size: 12px;
 }
 
 .find .find__recommended {

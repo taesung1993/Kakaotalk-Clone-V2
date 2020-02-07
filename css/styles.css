@@ -10,6 +10,7 @@
 @import "styles.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
@@ -28,10 +29,17 @@ a {
   text-decoration: none;
 }
 
-.chats {
-  position: fixed;
-  top: 90px;
-  left: 0px;
-  right: 0px;
-  padding: 0px 20px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-in-out;
 }
